@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            congratulations!!
+        </title>
+        <link href="style2.css" rel="stylesheet">
+        <style>
+            .container {
+                background-color: yellow;
+                height: 100px;
+                width: 600px;
+            }
+            .maanit {
+                height: 20px;
+                width: 40px;
+                background-color: blueviolet;
+                transition-property: transform, background-color;
+                transition-duration: 3s;
+                transition-timing-function: ease-in-out;
+                transition-delay: 1s ;
+                transform: translateX(180px) translateY(190px);
+                background-color: green;
+            }
+            .container2 {
+                height: 200px;
+                width: 600px;
+                background-color: blue;
+                margin-right: 50px ;
+            }
+            .boxes {
+                height: 20px;
+                width: 50px;
+                background-color: aqua;
+                /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+                
+                animation: baniya 3s ease-in-out 1s 10 alternate-reverse, baniya2 2s ease-in-out 1s 10 alternate-reverse;
+                 
+            }
+             @keyframes baniya { 
+                From {
+                    background-color: aqua;
+                }
+                to {
+                    background-color: green;
+                    transform: translateX(350px);
+                }
+             }
+             @keyframes baniya2 { 
+                
+                   0% { transform: rotate(100deg);
+                   
+                   }
+                   30% { transform: rotate(200deg);
+
+                   }
+                   60% { transform: rotate(300deg);
+
+                   }
+                   100% {
+                         transform:rotate(330deg);
+                   }
+                }
+             
+                
+           
+            
+        </style>
+    </head>
+    
+<body class="stedf">
+ <h1> Form Submitted</h1>
+   <table class="neet">
+    <tr>
+        <th>name</th>
+        <th>roll number</th>
+        <th>branch</th>
+    </tr>
+    <tr>
+        <td>manit</td>
+        <td>143</td>
+        <td>EE</td>
+    </tr>
+    <tr>
+        <td>lakshya</td>
+        <td>132</td>
+        <td>EE</td>
+    </tr>
+    <tr>
+        <td>garv</td>
+        <td>120</td>
+        <td>EE</td>
+    </tr>
+    <tr>
+        <td>naman</td>
+        <td>121</td>
+        <td>EE</td>
+    </tr>
+    <tr>
+        <td>pratek</td>
+        <td>193</td>
+        <td>EE</td>
+    </tr>
+    <tr>
+        <td>tameem</td>
+        <td>243</td>
+        <td>EE</td>
+    </tr>
+   </table>
+   <div class="box">
+    <h1 class="class">1.</h1>
+    <h1 class="class1">2.</h1>
+    <h1 class="class2">3.</h1>
+    <h1 class="class3">4.</h1>
+    <h1 class="class4">5.</h1>
+    <h1 class="class5">6.</h1>
+   </div>
+   <br>
+   <div class="container">
+    <div class="maanit agarwal">
+     
+        <div class="container2">
+            <div class="boxes">
+            </div>
+        </div>
+    </div>
+   </div>
+   
+</body>
+</html>

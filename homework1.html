@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Bouncing Ball
+        </title>
+        <style>
+            .contain {
+                height: 600px;
+                width: 1000px;
+                background-color: blue;
+               position: relative;
+              
+                
+            }
+            .box {
+                height: 50px;
+                width: 60px;
+                background-color: brown;
+                border-radius: 200px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+
+                /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+                animation: xmove 2s linear 0.1s infinite, ymove 2s ease-out 0.1s infinite alternate-reverse;
+            }
+            @keyframes xmove {
+                from {
+                    left: 0;
+                }
+                to {
+                    left: 75%;
+                }
+                
+            }
+            @keyframes ymove {
+                from {
+                    bottom: 0;
+                }
+                to {
+                    bottom: 75%;
+                }
+                
+            }
+            .tiramisu {
+                    height: 200px;
+                    width: 200px;
+                    background-color: aquamarine;
+                    border: 5px solid black;
+                }
+                .sundar {
+                    height: 200px;
+                   width: 200px;
+                   object-fit: contain;
+                   
+                   
+                }
+            
+           
+            
+            
+        </style>
+    </head>
+    <body>
+        <div class="contain">
+            <div class="box">
+
+            </div>
+        </div>
+        <div class="tiramisu">
+            <img src="https://thumbs.dreamstime.com/b/cool-wallpapers-backgrounds-check-out-our-68126782.jpg" class="sundar">
+           </div>
+    </body>
+</html>

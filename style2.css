@@ -1,0 +1,68 @@
+.neet {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.neet td, .neet th {
+    border: 2px solid gray;
+    padding: 5px;
+}
+.neet tr:nth-child(even) {
+background-color: darkgray;
+}
+.neet tr:hover {
+    background-color: darkgrey;
+}
+.class {
+    height: 50px;
+    width: 50px;
+    border: 10px groove purple;
+    margin-left: 3px;
+    background-color: yellow;
+}
+.class1 {
+    height: 50px;
+    width: 50px;
+    border: 10px groove purple;
+    margin-left: 3px;
+    background-color: yellow;
+}
+.class2 {
+    height: 50px;
+    width: 50px;
+    border: 10px groove purple;
+    margin-left: 3px;
+    background-color: yellow;
+}
+.class3 {
+    height: 50px;
+    width: 50px;
+    border: 10px groove purple;
+    margin-left: 3px;
+    background-color: yellow;
+}
+.class4 {
+    height: 50px;
+    width: 50px;
+    border: 10px groove purple;
+    margin-left: 3px;
+    background-color: yellow;
+    align-self:flex-end;
+}
+.class5 {
+    height: 50px;
+    width: 50px;
+    border: 10px groove purple;
+    margin-left: 3px;
+    background-color: yellow;
+}
+.box {
+    height: 650px;
+    width: 265px;
+    border: 10px groove purple;
+    background-color: darkgray;
+    display: grid;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.stedf {
+    background-color: beige;
+}

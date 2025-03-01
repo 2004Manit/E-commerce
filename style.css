@@ -1,0 +1,77 @@
+.nani {
+    color: aqua;
+    border-style: groove;
+    border-width: 20px 5px 19px 23px;
+    border-color: brown;
+}
+.hello {
+    color: rgb(210, 45, 123);
+    border-style: groove;
+    border-width: 5px;
+    border-color: black;
+    text-align: center;
+}
+.hi {
+    background-color: yellow;
+}
+h3 {
+    background-color: blueviolet;
+}
+.bhusa {
+    list-style-type: square;
+}
+.foodie {
+    color: red;
+}
+.foodie:hover {
+    color: green;
+}
+.madhank {
+    color: yellowgreen;
+}
+.madhank:hover {
+    color: purple;
+}
+.class {
+   
+    background-color: darkkhaki;
+    
+    
+}
+.class1 {
+   
+    background-color: orange;
+}
+.class2 {
+  
+    background-color: yellow;
+}
+.class3 {
+  
+    background-color: green;
+}
+.class4 {
+ 
+    background-color: red;
+    
+}
+.class5 {
+    
+    background-color: blue;
+}
+.box {
+    height: 550px;
+    width: 265px;
+    border: 10px groove purple;
+    background-color: darkgray;
+    display: grid;
+    grid-template-columns: 75px 75px 75px;
+    grid-gap: 5px;
+    grid-column-start: 2;
+    grid-column-end: 1;
+}
+.active {
+    color: yellowgreen;
+    background-image: url(https://images.herzindagi.info/image/2022/May/clothes-to-repeat-fashion-tips.jpg);
+}
+

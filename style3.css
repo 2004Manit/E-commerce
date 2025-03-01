@@ -1,0 +1,436 @@
+.container {
+    
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+   background-color: #e3e6f3;
+   padding: 20px 50px;
+   object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+   position: fixed;
+   top: 0;
+    left: 0;
+    right: 0;
+    
+    z-index: 999;
+}
+.hanger { 
+    height: 110px;
+    width: 110px;
+    object-fit: cover;
+}
+.deca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deca ul{
+    list-style-type: none;
+    display: flex;
+   
+    
+}
+.deca ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+   
+}
+.deca ul li a.active {
+    color: #088178;
+
+}
+
+.deca ul li:hover a{
+    color: #088178;
+}
+
+a.active {
+    margin-left: 850px;
+    
+}
+.deca ul li a.actives{
+ margin-left: 20px;
+}
+.heros {
+    background-color: #e3e6f3;
+    background-image: url(https://c8.alamy.com/comp/W5PT6C/side-view-of-a-fashion-man-sitting-down-on-white-background-W5PT6C.jpg);
+    height: 80vh;
+    width: 100%;
+    background-position-x: right;
+    left: 0;
+    right: 0;
+    display: flexbox;
+   justify-content: center;
+    background-size: cover;
+    padding-top: 250px;
+    margin-left: 10px;
+    }
+    .heros h4 {
+        color: darkgray;
+        font-size: 50px;
+        line-height: 0px;
+    }
+    .heros h2 {
+        color: #222;
+        font-size: 60px;
+        line-height: 2px;
+    }
+    .heros p{
+    color: #465b52;
+    }
+    .heros h1 {
+        color: #088178;
+        font-size: 60px;
+        line-height: 5px;
+    }
+    .heros button {
+        background-image: url(https://w0.peakpx.com/wallpaper/729/413/HD-wallpaper-aqua-abstract-watercolor-background-color-splash-design-element-6655136-stock-at-vecteezy-thumbnail.jpg);
+        height: 135px;
+        width: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .heros button {
+        background-color: transparent;
+        border: none;
+        margin-left: 25px;
+        margin-top: 10px;
+        font-size: 25px;
+        font-weight: 700;
+        padding: 20px 25px 25px 25px;
+    }
+    .heros button:hover {
+        color: beige;
+        transition: 1s;
+    }
+    #features {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #features .f-box{
+        width: 180px;
+        text-align: center;
+        padding: 15px 15px;
+        
+        border: 1px solid rgb(204, 249, 249);
+        border-radius: 40px;
+        margin: 15px 0;
+        transition: box-shadow 0.3s;
+    }
+    #features .f-box:hover {
+        box-shadow: 10px 10px 54px rgba(0,0,0,0.1);
+    }
+    #features .f-box img{
+        width: 80px;
+        height: 80px;
+    }
+    .chiku{
+       
+        padding: 9px 4px 6px 4px;
+        line-height: 1;
+        border-radius: 4px;
+        font-size: 15px;
+        color: #088178;
+        background-color: #fae7eb;
+    }
+    .nimbu{
+       
+        padding: 9px 4px 6px 4px;
+        line-height: 1;
+        border-radius: 4px;
+        font-size: 15px;
+        color: #088178;
+        background-color: lightcyan;
+    }
+    .rumba{
+       
+        padding: 9px 4px 6px 4px;
+        line-height: 1;
+        border-radius: 4px;
+        font-size: 15px;
+        color: #088178;
+        background-color: burlywood;
+    }
+    .bumba{
+       
+        padding: 9px 4px 6px 4px;
+        line-height: 1;
+        border-radius: 4px;
+        font-size: 15px;
+        color: #088178;
+        background-color: rgb(241, 241, 199);
+    }
+    .chemba{
+       
+        padding: 9px 4px 6px 4px;
+        line-height: 1;
+        border-radius: 4px;
+        font-size: 15px;
+        color: #088178;
+        background-color: rgb(198, 198, 237);
+    }
+    .temba{
+       
+        padding: 9px 4px 6px 4px;
+        line-height: 1;
+        border-radius: 4px;
+        font-size: 15px;
+        color: #088178;
+        background-color: rgb(203, 245, 203);
+    }
+    .tinama  {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 55px;
+        font-size: 35px;
+        text-align: center;
+        color: #222;
+        line-height: 10px;
+    }
+    .maneet {
+        text-align: center;
+        color: darkgray;
+    }
+    #shirts .g-box img {
+        height: 140px;
+        width: 130px;
+        background-color: #e3e6f3;
+    }
+   #shirts .g-box{
+    margin-top: 60px;
+    border: 2px solid rgb(242, 240, 240);
+    padding: 25px 45px 25px 45px;
+    border-radius: 30px;
+    transition: box-shadow 0.4s;
+   }
+    #shirts {
+        display: flex;
+       justify-content: space-around;
+    }
+    #shirts .g-box:hover {
+        box-shadow: 10px 10px 54px rgba(0,0,0,0.1);
+    }
+    #shirts .g-box h6 {
+        color: grey;
+        font-size: 12px;
+        line-height: 0px;
+       
+    }
+    #shirts .g-box h5 {
+        line-height: 1px;
+        font-size: 18px;    
+    }
+    #shirts .g-box h4 {
+        color: #088178;
+    } 
+    #shirts .g-box icon{
+        color: #e6ae2c;
+    }
+    #shirts .g-box icon a{
+        color: rgb(241, 55, 86);
+        border: 1px solid white;
+        padding:8px;
+        border-radius: 50px;
+       transition: background-color 0.85s;
+        
+
+        
+    }
+    #shirts .g-box icon a:hover{
+       
+    background-color: rgb(247, 202, 209);
+    }
+    .explore {
+        background-image: url(https://cdn.pixabay.com/photo/2015/05/16/11/50/spheres-769780_960_720.jpg);
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 40vh;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 100px;    
+        
+    }
+    .explore h5{
+        font-size: 14px;
+        text-align:center;
+        padding-top: 80px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       
+    }
+    .explore h1{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .explore button {
+        
+        font-size: 17px;
+        margin-top: 20px;
+        margin-left: 686.5px;
+        border: 1px solid rgb(68, 67, 67);
+        background-color: white;
+        padding: 14px 26px 14px 26px;
+        border-radius: 6.6px ;
+        transition: background-color 0.5s;
+      
+        
+    }
+    .explore button a{
+        color: rgb(94, 93, 93);
+        text-decoration: none;
+        transition: color 0.5s;
+    }
+    .explore button:hover{
+        background-color: #088178;
+  
+    }
+    .explore button a:hover{
+        color: white;
+    }
+    .kutta {
+        background-image: url(https://images.herzindagi.info/image/2022/May/clothes-to-repeat-fashion-tips.jpg);
+        
+        height: 300px;
+        width: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 70px 15px 5px 227px;
+        box-sizing: border-box;
+        transition: height 2s;
+        transition: width 1s;
+    
+    }
+    
+    .kamina {
+        background-image: url(https://png.pngtree.com/background/20230517/original/pngtree-shirts-on-a-rack-hanging-on-hangers-picture-image_2639757.jpg);
+        height: 300px;
+        width: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 70px 15px 5px 12px;
+        transition: height 2s;
+        transition: width 1s;
+    }
+    section.banners{
+        display: flex;
+    }
+    .kutta button {
+        font-size: 13px;
+        margin-top: 12px;
+        margin-left: 11.5px;
+        border: 1px solid white;
+        background-color: transparent;
+        padding: 10px 26px 10px 26px;
+        transition: background-color 0.4s;
+        color: white;
+        transition: border-color 0.1s;
+    }
+    .kutta:hover{
+        box-shadow: 10px 10px 54px rgba(0,0,0,0.1);
+        height: 313px;
+        width: 523px;
+    }
+    .kutta button:hover {
+        background-color: #088178;
+        border-color: #088178;
+    }
+    .kamina button {
+        font-size: 13px;
+        margin-top: 12px;
+        margin-left: 11.5px;
+        border: 1px solid white;
+        background-color: transparent;
+        padding: 10px 26px 10px 26px;
+        transition: background-color 0.4s;
+        color: white;
+        transition: border-color 0.1s;
+    }
+    .kamina:hover{
+        box-shadow: 10px 10px 54px rgba(0,0,0,0.1);
+        height: 313px;
+        width: 523px;
+    }
+    .kamina button:hover {
+        background-color: #088178;
+        border-color: #088178;
+    }
+    .kuttas {
+        background-image: url(https://img.pikbest.com/ai/illus_our/20230413/7f7a5af5338449137251eaa2f673d9ab.jpg!w700wp);
+        
+        height: 300px;
+        width: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 40px 15px 5px 135px;
+        box-sizing: border-box;
+         transition: height 2s;
+        transition: width 1s; 
+    
+    }
+    .kuttas:hover{
+        box-shadow: 10px 10px 54px rgba(0,0,0,0.1);
+         height: 313px;
+        width: 423px; 
+    }
+    .kaminas {
+        background-image: url(https://image.slidesdocs.com/responsive-images/background/aesthetic-composition-of-a-vase-on-pastel-beige-with-hanging-clothes-in-the-powerpoint-background_d40a7bf978__960_540.jpg);
+        height: 300px;
+        width: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 40px 15px 5px 12px;
+         transition: height 2s;
+        transition: width 1s;
+    }
+    .kaminas:hover{
+        box-shadow: 10px 10px 54px rgba(0,0,0,0.1);
+         height: 313px;
+        width: 423px;
+    }
+    .neech {
+        background-image: url(https://image.slidesdocs.com/responsive-images/background/3d-rendering-of-a-mall-storefront-showcasing-mens-suits-shirts-and-womens-dresses-powerpoint-background_875c576f0a__960_540.jpg);
+        height: 300px;
+        width: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 40px 15px 5px 12px;
+         transition: height 2s;
+        transition: width 1s; 
+    }
+    .neech:hover{
+        box-shadow: 10px 10px 54px rgba(0,0,0,0.1);
+         height: 313px;
+        width: 423px;
+    }
+    .explores {
+        background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2pvYjEzNjItYmctMDdfMS5qcGc.jpg);
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 22vh;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 100px;    
+        display: flex;
+    }
+    .last {
+        background-image: url(https://marketplace.canva.com/EAFCbKLQ_LE/1/0/1600w/canva-white-black-minimalist-fashion-store-logo-FBKZMKJ8Vpw.jpg) ;
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 695px;
+       
+        width: 100%;
+        margin-top: 280px;
+        margin-left: 0px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }
+    
+    
+    
